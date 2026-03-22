@@ -1,0 +1,44 @@
+# =========================
+# Secrets & Configuration
+# =========================
+# NEVER commit your API keys to GitHub!
+.env
+
+
+# =========================
+# Virtual Environments
+# =========================
+customerbot/
+venv/
+env/
+.venv/
+__pypackages__/
+
+# =========================
+# Python Cache & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# =========================
+# OS & IDE Files
+# =========================
+# Windows/Mac system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / PyCharm settings
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Logs & Databases
+# =========================
+*.log
+*.sqlite3
+*.db

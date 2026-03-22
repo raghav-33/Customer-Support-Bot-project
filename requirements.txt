@@ -1,0 +1,35 @@
+# LangGraph — for building agentic workflows & state-based AI systems
+langgraph
+
+# LangChain core — prompt templates, chains, message classes, tools
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+
+
+# Groq LLM integration — lets you use Groq models (Groq API)
+langchain-groq
+
+# Environment variable loader — used to load API keys from .env
+python-dotenv
+
+# Tavily Search Tool — web search for real-time information inside your agent
+langchain-tavily
+
+# Uvicorn — ASGI server to run FastAPI apps (very fast and lightweight)
+uvicorn
+
+# FastAPI — used to expose your AI bot as an API endpoint or web service
+fastapi
+
+# File upload support for FastAPI (multipart/form-data)
+python-multipart
+
+faiss-cpu
+sentence-transformers
+pydantic
+
+jupyter
+jupyterlab

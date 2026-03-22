@@ -1,0 +1,3 @@
+Payment Policy
+All payments are processed securely.
+If a payment fails, the system retries automatically within 24 hours.

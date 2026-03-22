@@ -1,0 +1,52 @@
+# Frequently Asked Questions (FAQ)
+
+## Shipping and Delivery
+**Q: How long does shipping take?**
+A: Standard shipping typically takes 3-5 business days. Expedited shipping is available for an additional fee and takes 1-2 business days. Orders placed after 2 PM EST will be processed the next business day.
+
+**Q: Do you ship internationally?**
+A: Yes, we ship to most countries worldwide. International shipping usually takes 7-14 business days, depending on customs processing in your country. Please note that customers are responsible for any local customs duties or import taxes.
+
+**Q: How can I track my order?**
+A: Once your order ships, you will receive an email with a tracking number and a link to track your package on our carrier's website. You can also track your order directly in your "Account Dashboard".
+
+**Q: What happens if my package is lost or stolen?**
+A: If your tracking information shows "Delivered" but you have not received your package, please wait 24 hours as carriers sometimes scan packages early. If it is still missing, contact our support team within 7 days of the delivery date so we can open an investigation with the carrier.
+
+**Q: I receive Damaged or Defective Items or Product?
+If your item arrives damaged or defective, You can return through your placed order section . We will immediately issue a replacement or a standard full refund 
+
+## Order Management
+**Q: Can I cancel or change my order after placing it?**
+A: We process orders very quickly. You have a 1-hour window after placing your order to cancel or modify it. Please contact support immediately if you need to make changes. After 1 hour, the order cannot be altered and will need to be processed as a return.
+
+**Q: Why was my order canceled?**
+A: Orders may be canceled due to inventory shortages, fraud prevention flags, or payment processing errors. If your order is canceled, you will not be charged, and you will receive an explanatory email.
+
+## Products and Inventory
+**Q: Will out-of-stock items be restocked?**
+A: We regularly restock core items. If an item is out of stock, you can click "Notify Me When Available" on the product page to receive an email alert the moment it comes back in stock.
+
+**Q: Do your products come with a warranty?**
+A: Yes, all electronics and hardware come with a standard 1-year manufacturer's warranty covering defects in materials and workmanship.
+
+## Accounts and Security
+**Q: How do I reset my password?**
+A: Go to the login page and click "Forgot Password". Enter your email address, and we will send you a secure link to reset your password.
+
+**Q: Can I change my email address?**
+A: Yes, you can update your email address in the "Account Settings" section of your profile. You will need to verify the new email via a confirmation link.
+
+## Payments
+**Q: What payment methods do you accept?**
+A: We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, and Apple Pay. We also offer Buy Now, Pay Later options through Klarna and Afterpay for eligible orders.
+
+**Q: Is my payment information secure?**
+A: Yes, we use industry-standard SSL encryption protocols to ensure that all payment information is securely processed. We do not store your full credit card details on our servers.
+
+## Contact and Support
+**Q: What are your customer support hours?**
+A: Our support team is available Monday through Friday, 9:00 AM to 6:00 PM EST.
+
+**Q: How can I contact customer service?**
+A: You can reach us via this chat widget, by emailing support@ourcompany.com, or by calling our toll-free number at 1-800-555-0199 during business hours.

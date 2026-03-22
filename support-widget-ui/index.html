@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Support Agent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <button class="chat-toggle-btn" id="chatToggleBtn" onclick="toggleChat()">
+        <i class="ph ph-chat-teardrop-dots"></i>
+    </button>
+
+    <div class="chat-container" id="chatContainer">
+        
+        <div class="chat-header">
+            <div class="header-info">
+                <div class="avatar">
+                    <i class="ph ph-robot"></i>
+                </div>
+                <div>
+                    <h3>Support AI</h3>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+            <button class="close-btn" onclick="toggleChat()">
+                <i class="ph ph-x"></i>
+            </button>
+        </div>
+
+        <div class="chat-history" id="chatHistory">
+            <div class="message bot">
+                <div class="message-content">
+                    Hello! I'm your AI support assistant. How can I help you today?
+                </div>
+                <div class="timestamp">Just now</div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+            <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                <i class="ph ph-paper-plane-right"></i>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
