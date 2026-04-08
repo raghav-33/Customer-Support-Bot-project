@@ -1,8 +1,3 @@
-Here is the fully fixed, clean version. I removed the markdown hyperlink brackets inside the code block that caused the formatting glitch in your screenshot. 
-
-Click the **"Copy"** button in the top-right corner of the block below and paste it directly into your GitHub `README.md` file!
-
-```markdown
 # 🤖 ResolveAI: Customer Support AI Agent
 
 ResolveAI is a production-ready, full-stack customer support AI built with a multi-agent LangGraph architecture. It features a Retrieval-Augmented Generation (RAG) pipeline to accurately answer questions based on company policies, maintains conversational memory across multiple turns, and is served via a high-performance FastAPI backend to a modern, glassmorphism-styled web widget.
@@ -85,4 +80,3 @@ To view the UI, simply double-click the `index.html` file in your file explorer 
 
 ## 🛡️ License
 This project is open-source and available under the MIT License.
-```
