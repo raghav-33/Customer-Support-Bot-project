@@ -1,7 +1,6 @@
-```markdown
-# 🤖 Customer Support AI Agent
+# 🤖 ResolveAI: Customer Support AI Agent
 
-Customer Support AI Agent is a production-ready, full-stack customer support AI built with a multi-agent LangGraph architecture. It features a Retrieval-Augmented Generation (RAG) pipeline to accurately answer questions based on company policies, maintains conversational memory across multiple turns, and is served via a high-performance FastAPI backend to a modern, glassmorphism-styled web widget.
+ResolveAI is a production-ready, full-stack customer support AI built with a multi-agent LangGraph architecture. It features a Retrieval-Augmented Generation (RAG) pipeline to accurately answer questions based on company policies, maintains conversational memory across multiple turns, and is served via a high-performance FastAPI backend to a modern, glassmorphism-styled web widget.
 
 ## ✨ Key Features
 
@@ -33,7 +32,6 @@ Follow these steps to run the project locally on your machine.
 ```bash
 git clone [https://github.com/your-username/resolve-ai-support-bot.git](https://github.com/your-username/resolve-ai-support-bot.git)
 cd resolve-ai-support-bot
-```
 
 ### 2. Backend & AI Setup
 Open a terminal and set up your Python environment.
