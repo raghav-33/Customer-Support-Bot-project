@@ -16,15 +16,12 @@ direct_prompt = ChatPromptTemplate.from_messages([
     MessagesPlaceholder(variable_name="chat_history") 
 ])
 
-# MAGIC FIX: By adding StrOutputParser() to the end, the chain will NEVER return an AIMessage object again.
+# By adding StrOutputParser() to the end, the chain will NEVER return an AIMessage object again.
 direct_chain = direct_prompt | direct_llm | StrOutputParser()
 
 def llm_direct_node(state: AgentState): 
     print("---RUNNING DIRECT LLM NODE---")
-    
     try:
-        # Because of StrOutputParser, 'response' is now just a plain string!
-        # No need for response.content or response["answer"]
         response_string = direct_chain.invoke({"chat_history": state["messages"]})
         
         return {
