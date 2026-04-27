@@ -36,21 +36,27 @@ prompt = ChatPromptTemplate.from_messages([
     ("human", "{input}"),
 ])
 
-qa_chain = create_stuff_documents_chain(llm, prompt)
-rag_chain = create_retrieval_chain(retriever, qa_chain)
 
-
-# Rag Node
 def rag_node(state: AgentState):
-    
-    # Get the latest message from the graph state
+    # Get the user's question
     user_question = state["messages"][-1].content
     
-    # Run your exact chain
-    response = rag_chain.invoke({"input": user_question})
+    #  retrieve documents from FAISS
+    docs = retriever.invoke(user_question)
     
-    # Return the answer to update the graph state
+    # "stuffing" documents into a single string
+    context_text = "\n\n".join([doc.page_content for doc in docs])
+    
+    formatted_messages = prompt.format_messages(
+        context=context_text, 
+        input=user_question
+    )
+
+    # llm calling
+    response = llm.invoke(formatted_messages)
+    
+    # 5. Return the result
     return {
-        "generated_response": response["answer"],
-        "messages": [AIMessage(content=response["answer"])]
-        }
+        "generated_response": response.content,
+        "messages": [AIMessage(content=response.content)]
+    }
