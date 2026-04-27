@@ -1,11 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from langchain_core.messages import HumanMessage
-from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware 
-from pydantic import BaseModel
-from langchain_core.messages import HumanMessage
-from graph import app as langgraph_app
 from graph import app as langgraph_app 
 
 # Initialize FastAPI
