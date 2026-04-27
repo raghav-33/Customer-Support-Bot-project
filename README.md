@@ -21,7 +21,7 @@ ResolveAI is a production-ready, full-stack customer support AI built with a mul
 
 * **Frontend:** Vanilla JavaScript, HTML5, CSS3 (Glassmorphism UI)
 * **Backend:** Python, FastAPI, Uvicorn, Pydantic
-* **AI & Orchestration:** LangGraph, LangChain, Groq API (Llama models)
+* **AI & Orchestration:** LangGraph, LangChain, Groq API (Llama model: llama-3.1-8b-instant)
 * **Vector DB & Embeddings:** FAISS, HuggingFace (`all-MiniLM-L6-v2`)
 
 ## 🚀 Getting Started
